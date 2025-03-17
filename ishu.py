@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 import time
 
-# Set the title of the app
-st.title("A App for you, Ishkka 💖")
+st.set_page_config(page_title="A App for you, Ishkka 💖", page_icon="💖")
+
 
 # Add a subtitle
 st.subheader("Thank you for being there for me! 🙏")
