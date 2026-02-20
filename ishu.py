@@ -6,7 +6,7 @@ st.set_page_config(page_title="A App for you, Ishkka 💖", page_icon="💖")
 
 
 # Add a subtitle
-st.subheader("Thank you for being there for me! 🙏")
+st.subheader("Thank you for being there for me! 🫶")
 
 # Display images with titles and descriptions
 st.header("Beautiful Moments 🌟")
@@ -91,7 +91,7 @@ if st.button("Next Quote"):
 
 # Video section
 st.header("Videos")
-video_files = ["video1.mp4", "video2.mp4", "video3.mp4", "video4.mp4", "video5.mp4"]  # Add your video file paths here
+video_files = [ "video2.mp4", "video3.mp4", "video4.mp4", "video5.mp4"]  # Add your video file paths here
 video_index = st.session_state.get('video_index', 0)
 
 if video_index < len(video_files):
